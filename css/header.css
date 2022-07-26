@@ -1,0 +1,21 @@
+.header__button {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    padding:5px;
+}
+
+.header__pageTitle {
+    color: #be2342;
+    background-color: #c4bfbf;
+    text-align: center;padding:20px;
+}
+
+.header__image {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 100%;
+    border-radius: 20%;
+    padding:10px;
+}

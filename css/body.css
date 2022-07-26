@@ -1,0 +1,12 @@
+.body {
+    background-color:#f3ecec;
+    font-family: 'Lato', sans-serif;
+    line-height: 30px;
+    max-width: 1000px;
+    margin: auto;
+    padding: 20px;
+}
+
+.bodychange {
+    background-color: #8b929b;
+}

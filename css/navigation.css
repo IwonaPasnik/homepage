@@ -1,0 +1,18 @@
+.navigation__list {
+    border-style: none;
+    padding: 15px;
+    background-color: #c4bfbf;
+    box-shadow: 6px 5px 9px -2px #6b1829;
+    text-align: center;
+}
+
+.navigation__link {
+    color: #88192f;
+    font-weight: 1000;
+    text-decoration: none;
+    padding: 15px;
+}
+
+.navigation__listItem{
+    display: inline;
+}
