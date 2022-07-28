@@ -10,7 +10,7 @@ Hi! This is my first self-made website on modern art. I invite you to read a few
 
 ## Preview
 
-![homepage preview](images/homepage.mp4)
+![homepage preview](images/homepage.gif)
 
 ## Technologies
 
