@@ -1,11 +1,20 @@
-console.log("Cześć!");
+{
+    const welcome = () => {
+        console.log("Cześć!");
+    }
 
-let button = document.querySelector(".js-button");
-let body = document.querySelector(".js-body");
-let themeName = document.querySelector(".js-buttonChange");
+    const toggleBackground = () => {
+        const body = document.querySelector(".js-body");
+        const themeName = document.querySelector(".js-buttonChange");
+        body.classList.toggle("bodychange");
+        themeName.innerText = body.classList.contains("bodychange") ? "jasny" : "ciemny";
+    }
 
-button.addEventListener("click", () => {
-    body.classList.toggle("bodychange");
+    const init = () => {
+        const button = document.querySelector(".js-button");
+        button.addEventListener("click", toggleBackground);
+        welcome();
+    }
 
-    themeName.innerText = body.classList.contains("bodychange") ? "jasny" : "ciemny";
-});
+    init();
+}
